@@ -43,7 +43,7 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     name: 'Bitkeep',
     iconName: 'bitkeep.png',
     description: 'Easy-to-use browser extension.',
-    href: 'https://bitkeep.com',
+    href: null,
     color: '#E8831D',
     mobile: true,
   },
@@ -54,6 +54,7 @@ export const SUPPORTED_WALLETS: { [key: string]: WalletInfo } = {
     description: 'Easy-to-use browser extension.',
     href: null,
     color: '#E8831D',
+    mobile: true,
   },
   METAMASK_MOBILE: {
     name: 'MetaMask',
